@@ -1,0 +1,13 @@
+numpy
+pandas
+opencv-python
+networkx
+h5py
+tqdm
+vocab
+revtok
+Pillow
+torch
+torchvision
+tensorboardX==1.8
+ai2thor==2.1.0

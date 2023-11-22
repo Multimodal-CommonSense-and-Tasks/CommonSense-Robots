@@ -1,0 +1,5431 @@
+[
+    {
+        "task": "pick_and_place_simple-RemoteControl-None-Sofa-207/trial_T20190909_153609_373481",
+        "repeat_id": 1,
+        "subgoal_ids": [
+            0,
+            1
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "remotecontrol"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "RemoteControl",
+                        [
+                            0.124987006,
+                            0.124987006,
+                            2.474988,
+                            2.474988,
+                            1.919546604,
+                            1.919546604
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CoffeeTable",
+                        [
+                            -0.6,
+                            -0.6,
+                            1.684,
+                            1.684,
+                            -0.002000009408,
+                            -0.002000009408
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "RemoteControl|+00.03|+00.48|+00.62"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 166,
+                "annotations": "Pick up the remote control from the table"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "remotecontrol",
+                        "sofa"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "RemoteControl",
+                        [
+                            0.124987006,
+                            0.124987006,
+                            2.474988,
+                            2.474988,
+                            1.919546604,
+                            1.919546604
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Sofa",
+                        [
+                            -5.78,
+                            -5.78,
+                            1.68,
+                            1.68,
+                            -0.112,
+                            -0.112
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "RemoteControl|+00.03|+00.48|+00.62",
+                    "receptacleObjectId": "Sofa|-01.45|-00.03|+00.42"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PutObject"
+                ],
+                "scene_index": 166,
+                "annotations": "Place the remote on the couch behind the blue pillow"
+            }
+        ],
+        "annotation": "Put a remote control on the couch."
+    },
+    {
+        "task": "pick_two_obj_and_place-RemoteControl-None-CoffeeTable-207/trial_T20190908_122244_451639",
+        "repeat_id": 2,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "remotecontrol"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "RemoteControl",
+                        [
+                            -5.71279,
+                            -5.71279,
+                            -0.6844696,
+                            -0.6844696,
+                            1.3189456,
+                            1.3189456
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Sofa",
+                        [
+                            -5.78,
+                            -5.78,
+                            1.68,
+                            1.68,
+                            -0.112,
+                            -0.112
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "RemoteControl|-01.43|+00.33|-00.17"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 226,
+                "annotations": "Pick up the remote"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "remotecontrol",
+                        "coffeetable"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "RemoteControl",
+                        [
+                            -5.71279,
+                            -5.71279,
+                            -0.6844696,
+                            -0.6844696,
+                            1.3189456,
+                            1.3189456
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CoffeeTable",
+                        [
+                            -0.6,
+                            -0.6,
+                            1.684,
+                            1.684,
+                            -0.002000009408,
+                            -0.002000009408
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "RemoteControl|-01.43|+00.33|-00.17",
+                    "receptacleObjectId": "CoffeeTable|-00.15|00.00|+00.42"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 226,
+                "annotations": "Put the remote down"
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "remotecontrol"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "RemoteControl",
+                        [
+                            7.0034938,
+                            7.0034938,
+                            -0.835636616,
+                            -0.835636616,
+                            3.0388292,
+                            3.0388292
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "RemoteControl|+01.75|+00.76|-00.21"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 226,
+                "annotations": "Pick up the remote"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "remotecontrol",
+                        "coffeetable"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "RemoteControl",
+                        [
+                            7.0034938,
+                            7.0034938,
+                            -0.835636616,
+                            -0.835636616,
+                            3.0388292,
+                            3.0388292
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CoffeeTable",
+                        [
+                            -0.6,
+                            -0.6,
+                            1.684,
+                            1.684,
+                            -0.002000009408,
+                            -0.002000009408
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "RemoteControl|+01.75|+00.76|-00.21",
+                    "receptacleObjectId": "CoffeeTable|-00.15|00.00|+00.42"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 226,
+                "annotations": "Put the remote down on the table"
+            }
+        ],
+        "annotation": "Move two remotes to the center table."
+    },
+    {
+        "task": "pick_two_obj_and_place-KeyChain-None-Shelf-207/trial_T20190909_131701_482365",
+        "repeat_id": 2,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "keychain"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "KeyChain",
+                        [
+                            -5.08361148,
+                            -5.08361148,
+                            1.7600012,
+                            1.7600012,
+                            1.311459304,
+                            1.311459304
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Sofa",
+                        [
+                            -5.78,
+                            -5.78,
+                            1.68,
+                            1.68,
+                            -0.112,
+                            -0.112
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "KeyChain|-01.27|+00.33|+00.44"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 40,
+                "annotations": "Pick up the keys that are to the left of the laptop."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "keychain",
+                        "shelf"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "KeyChain",
+                        [
+                            -5.08361148,
+                            -5.08361148,
+                            1.7600012,
+                            1.7600012,
+                            1.311459304,
+                            1.311459304
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Shelf",
+                        [
+                            6.031996,
+                            6.031996,
+                            -0.528398036,
+                            -0.528398036,
+                            0.6812,
+                            0.6812
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "KeyChain|-01.27|+00.33|+00.44",
+                    "receptacleObjectId": "Shelf|+01.51|+00.17|-00.13"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 40,
+                "annotations": "Put the keys on the bottom right shelf."
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "keychain"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "KeyChain",
+                        [
+                            -2.2206536,
+                            -2.2206536,
+                            8.8010826,
+                            8.8010826,
+                            1.16734302,
+                            1.16734302
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "ArmChair",
+                        [
+                            -2.532,
+                            -2.532,
+                            8.776,
+                            8.776,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "KeyChain|-00.56|+00.29|+02.20"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 40,
+                "annotations": "Pick up the set of keys on the cushion."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "keychain",
+                        "shelf"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "KeyChain",
+                        [
+                            -2.2206536,
+                            -2.2206536,
+                            8.8010826,
+                            8.8010826,
+                            1.16734302,
+                            1.16734302
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Shelf",
+                        [
+                            6.031996,
+                            6.031996,
+                            -0.528398036,
+                            -0.528398036,
+                            0.6812,
+                            0.6812
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "KeyChain|-00.56|+00.29|+02.20",
+                    "receptacleObjectId": "Shelf|+01.51|+00.17|-00.13"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 40,
+                "annotations": "Put these keys near where you put the first set."
+            }
+        ],
+        "annotation": "Put two sets of keys on the shelf."
+    },
+    {
+        "task": "pick_and_place_simple-Vase-None-CoffeeTable-207/trial_T20190909_091246_807206",
+        "repeat_id": 1,
+        "subgoal_ids": [
+            0,
+            1
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "vase"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Vase",
+                        [
+                            6.102684,
+                            6.102684,
+                            2.167299748,
+                            2.167299748,
+                            3.0609724,
+                            3.0609724
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Vase|+01.53|+00.77|+00.54"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 1,
+                "annotations": "Pick up the blue bowl from the left side of the television stand."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "vase",
+                        "coffeetable"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Vase",
+                        [
+                            6.102684,
+                            6.102684,
+                            2.167299748,
+                            2.167299748,
+                            3.0609724,
+                            3.0609724
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CoffeeTable",
+                        [
+                            -0.6,
+                            -0.6,
+                            1.684,
+                            1.684,
+                            -0.002000009408,
+                            -0.002000009408
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Vase|+01.53|+00.77|+00.54",
+                    "receptacleObjectId": "CoffeeTable|-00.15|00.00|+00.42"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 1,
+                "annotations": "Put the blue bowl on the back left corner of the table to the left of the laptop computer."
+            }
+        ],
+        "annotation": "Place a bowl on a table."
+    },
+    {
+        "task": "look_at_obj_in_light-CreditCard-None-FloorLamp-207/trial_T20190907_031918_448619",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "creditcard"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "CreditCard",
+                        [
+                            -5.75325012,
+                            -5.75325012,
+                            7.2748,
+                            7.2748,
+                            1.955983876,
+                            1.955983876
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CoffeeTable",
+                        [
+                            -6.272,
+                            -6.272,
+                            7.2748,
+                            7.2748,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "CreditCard|-01.44|+00.49|+01.82"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 31,
+                "annotations": "Pick up the credit card on the left from the table. "
+            },
+            {
+                "discrete_action": {
+                    "action": "ToggleObject",
+                    "args": [
+                        "floorlamp"
+                    ]
+                },
+                "planner_action": {
+                    "action": "ToggleObject",
+                    "coordinateObjectId": [
+                        "FloorLamp",
+                        [
+                            4.916,
+                            4.916,
+                            15.192,
+                            15.192,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "FloorLamp",
+                        [
+                            4.916,
+                            4.916,
+                            15.192,
+                            15.192,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "FloorLamp|+01.23|+00.00|+03.80"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "LookUp_15",
+                    "LookUp_15",
+                    "ToggleObjectOn"
+                ],
+                "scene_index": 31,
+                "annotations": "Turn on the lamp. "
+            }
+        ],
+        "annotation": "Examine the credit card by the light of the lamp."
+    },
+    {
+        "task": "pick_and_place_simple-Egg-None-Microwave-4/trial_T20190906_234406_356490",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "egg"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Egg",
+                        [
+                            -6.21466876,
+                            -6.21466876,
+                            0.884032,
+                            0.884032,
+                            3.8470384,
+                            3.8470384
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -5.5576,
+                            -5.5576,
+                            1.7152,
+                            1.7152,
+                            3.684,
+                            3.684
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Egg|-01.55|+00.96|+00.22"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 218,
+                "annotations": "Pick up the egg in the sink."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "egg",
+                        "microwave"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Egg",
+                        [
+                            -6.21466876,
+                            -6.21466876,
+                            0.884032,
+                            0.884032,
+                            3.8470384,
+                            3.8470384
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Microwave",
+                        [
+                            -1.468,
+                            -1.468,
+                            1.72,
+                            1.72,
+                            4.4524064,
+                            4.4524064
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Egg|-01.55|+00.96|+00.22",
+                    "receptacleObjectId": "Microwave|-00.37|+01.11|+00.43"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 218,
+                "annotations": "Put the egg in the microwave. "
+            }
+        ],
+        "annotation": "Put an egg in the microwave."
+    },
+    {
+        "task": "pick_and_place_with_movable_recep-AppleSliced-Pot-CounterTop-4/trial_T20190906_180021_201134",
+        "repeat_id": 2,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "pot"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Pot",
+                        [
+                            -13.9,
+                            -13.9,
+                            1.92,
+                            1.92,
+                            4.5328,
+                            4.5328
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "StoveBurner",
+                        [
+                            -13.9,
+                            -13.9,
+                            1.92,
+                            1.92,
+                            4.3912,
+                            4.3912
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Pot|-03.48|+01.13|+00.48"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookUp_15",
+                    "PickupObject"
+                ],
+                "scene_index": 133,
+                "annotations": "Pick up the pot on the front burner."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "pot",
+                        "countertop"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Pot",
+                        [
+                            -13.9,
+                            -13.9,
+                            1.92,
+                            1.92,
+                            4.5328,
+                            4.5328
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -2.06,
+                            -2.06,
+                            1.968,
+                            1.968,
+                            4.6416,
+                            4.6416
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Pot|-03.48|+01.13|+00.48",
+                    "receptacleObjectId": "CounterTop|-00.52|+01.16|+00.49"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "PutObject"
+                ],
+                "scene_index": 133,
+                "annotations": "Place the pot on the counter on the left of the sink."
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "apple"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Apple",
+                        [
+                            -5.15259696,
+                            -5.15259696,
+                            2.269312,
+                            2.269312,
+                            3.995744,
+                            3.995744
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -5.5576,
+                            -5.5576,
+                            1.7152,
+                            1.7152,
+                            3.684,
+                            3.684
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Apple|-01.29|+01.00|+00.57"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 133,
+                "annotations": "Pick up the apple inside the sink."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "apple",
+                        "pot"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Apple",
+                        [
+                            -5.15259696,
+                            -5.15259696,
+                            2.269312,
+                            2.269312,
+                            3.995744,
+                            3.995744
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Pot",
+                        [
+                            -13.9,
+                            -13.9,
+                            1.92,
+                            1.92,
+                            4.5328,
+                            4.5328
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Apple|-01.29|+01.00|+00.57",
+                    "receptacleObjectId": "Pot|-03.48|+01.13|+00.48"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PutObject"
+                ],
+                "scene_index": 133,
+                "annotations": "Place the apple inside the pot on the counter. "
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "knife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            -5.50662088,
+                            -5.50662088,
+                            1.161088,
+                            1.161088,
+                            3.8559736,
+                            3.8559736
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -5.5576,
+                            -5.5576,
+                            1.7152,
+                            1.7152,
+                            3.684,
+                            3.684
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|-01.38|+00.96|+00.29"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "PickupObject"
+                ],
+                "scene_index": 133,
+                "annotations": "Pick up the knife inside the sink. "
+            },
+            {
+                "discrete_action": {
+                    "action": "SliceObject",
+                    "args": [
+                        "apple"
+                    ]
+                },
+                "planner_action": {
+                    "action": "SliceObject",
+                    "coordinateObjectId": [
+                        "Apple",
+                        [
+                            -5.15259696,
+                            -5.15259696,
+                            2.269312,
+                            2.269312,
+                            3.995744,
+                            3.995744
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Apple|-01.29|+01.00|+00.57"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "SliceObject"
+                ],
+                "scene_index": 133,
+                "annotations": "Cut the apple inside the pot. "
+            }
+        ],
+        "annotation": "Cut an apple inside a pot."
+    },
+    {
+        "task": "pick_and_place_with_movable_recep-Ladle-Pan-SinkBasin-4/trial_T20190908_192636_561572",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "ladle"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            -2.648344,
+                            -2.648344,
+                            10.37415312,
+                            10.37415312,
+                            4.34526,
+                            4.34526
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            -2.48,
+                            -2.48,
+                            9.944,
+                            9.944,
+                            0.0698738544,
+                            0.0698738544
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Ladle|-00.66|+01.09|+02.59"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 6,
+                "annotations": "Pick up the spoon."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "ladle",
+                        "pan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            -2.648344,
+                            -2.648344,
+                            10.37415312,
+                            10.37415312,
+                            4.34526,
+                            4.34526
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Pan",
+                        [
+                            -13.76,
+                            -13.76,
+                            11.68039512,
+                            11.68039512,
+                            3.6458788,
+                            3.6458788
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Ladle|-00.66|+01.09|+02.59",
+                    "receptacleObjectId": "Pan|-03.44|+00.91|+02.92"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "OpenObject",
+                    "PutObject"
+                ],
+                "scene_index": 6,
+                "annotations": "Open the refrigerator.  Put the spoon on the pan in the refrigerator.  "
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "pan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Pan",
+                        [
+                            -13.76,
+                            -13.76,
+                            11.68039512,
+                            11.68039512,
+                            3.6458788,
+                            3.6458788
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            -14.076,
+                            -14.076,
+                            10.868,
+                            10.868,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Pan|-03.44|+00.91|+02.92"
+                },
+                "api_action": [
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 6,
+                "annotations": "Grab the pan out of the refrigerator with the spoon."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "pan",
+                        "sinkbasin"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Pan",
+                        [
+                            -13.76,
+                            -13.76,
+                            11.68039512,
+                            11.68039512,
+                            3.6458788,
+                            3.6458788
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -5.5576,
+                            -5.5576,
+                            1.7152,
+                            1.7152,
+                            3.684,
+                            3.684
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Pan|-03.44|+00.91|+02.92",
+                    "receptacleObjectId": "Sink|-01.39|+00.98|+00.44|SinkBasin"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PutObject"
+                ],
+                "scene_index": 6,
+                "annotations": "Put the pan with the spoon on the counter."
+            }
+        ],
+        "annotation": "Put a spoon in a pan on the counter."
+    },
+    {
+        "task": "pick_and_place_with_movable_recep-Ladle-Plate-CounterTop-4/trial_T20190909_090126_143408",
+        "repeat_id": 2,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "ladle"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            -2.1552288,
+                            -2.1552288,
+                            12.16834164,
+                            12.16834164,
+                            4.34962224,
+                            4.34962224
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            -2.48,
+                            -2.48,
+                            9.944,
+                            9.944,
+                            0.0698738544,
+                            0.0698738544
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Ladle|-00.54|+01.09|+03.04"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 208,
+                "annotations": "pick up the measuring spoon"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "ladle",
+                        "plate"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            -2.1552288,
+                            -2.1552288,
+                            12.16834164,
+                            12.16834164,
+                            4.34962224,
+                            4.34962224
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Plate",
+                        [
+                            -4.94158028,
+                            -4.94158028,
+                            1.97879708,
+                            1.97879708,
+                            0.1918406488,
+                            0.1918406488
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Ladle|-00.54|+01.09|+03.04",
+                    "receptacleObjectId": "Plate|-01.24|+00.05|+00.49"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookDown_15",
+                    "OpenObject",
+                    "PutObject"
+                ],
+                "scene_index": 208,
+                "annotations": "put the spoon in the bowl in the cabinet to the left below the sink"
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "plate"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Plate",
+                        [
+                            -4.94158028,
+                            -4.94158028,
+                            1.97879708,
+                            1.97879708,
+                            0.1918406488,
+                            0.1918406488
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Cabinet",
+                        [
+                            -4.006524,
+                            -4.006524,
+                            2.9368168,
+                            2.9368168,
+                            1.57375586,
+                            1.57375586
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Plate|-01.24|+00.05|+00.49"
+                },
+                "api_action": [
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 208,
+                "annotations": "pick up the bowl and spoon from the cabinet"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "plate",
+                        "countertop"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Plate",
+                        [
+                            -4.94158028,
+                            -4.94158028,
+                            1.97879708,
+                            1.97879708,
+                            0.1918406488,
+                            0.1918406488
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -2.06,
+                            -2.06,
+                            1.968,
+                            1.968,
+                            4.6416,
+                            4.6416
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Plate|-01.24|+00.05|+00.49",
+                    "receptacleObjectId": "CounterTop|-00.52|+01.16|+00.49"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PutObject"
+                ],
+                "scene_index": 208,
+                "annotations": "put the bowl on the counter"
+            }
+        ],
+        "annotation": "Put a bowl and spoon on the counter."
+    },
+    {
+        "task": "pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811",
+        "repeat_id": 1,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "ladle"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            -3.141458988,
+                            -3.141458988,
+                            8.57996464,
+                            8.57996464,
+                            4.34526,
+                            4.34526
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            -2.48,
+                            -2.48,
+                            9.944,
+                            9.944,
+                            0.0698738544,
+                            0.0698738544
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Ladle|-00.79|+01.09|+02.14"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 90,
+                "annotations": "Pick up the spoon on the table, to the left of the apple."
+            },
+            {
+                "discrete_action": {
+                    "action": "CleanObject",
+                    "args": [
+                        "ladle"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CleanObject",
+                    "cleanObjectId": "Ladle|-00.79|+01.09|+02.14",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            -3.141458988,
+                            -3.141458988,
+                            8.57996464,
+                            8.57996464,
+                            4.34526,
+                            4.34526
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -5.5576,
+                            -5.5576,
+                            1.7152,
+                            1.7152,
+                            3.684,
+                            3.684
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Sink|-01.39|+00.98|+00.44|SinkBasin"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PutObject",
+                    "ToggleObjectOn",
+                    "ToggleObjectOff",
+                    "PickupObject"
+                ],
+                "scene_index": 90,
+                "annotations": "Wash the spoon in the sink."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "ladle",
+                        "diningtable"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            -3.141458988,
+                            -3.141458988,
+                            8.57996464,
+                            8.57996464,
+                            4.34526,
+                            4.34526
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            -2.48,
+                            -2.48,
+                            9.944,
+                            9.944,
+                            0.0698738544,
+                            0.0698738544
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Ladle|-00.79|+01.09|+02.14",
+                    "receptacleObjectId": "DiningTable|-00.62|+00.02|+02.49"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 90,
+                "annotations": "Place the spoon on the table to the right of the loaf of bread."
+            }
+        ],
+        "annotation": "Put a clean spoon on the table."
+    },
+    {
+        "task": "pick_cool_then_place_in_recep-Pan-None-StoveBurner-18/trial_T20190906_181023_216915",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "pan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Pan",
+                        [
+                            5.2527232,
+                            5.2527232,
+                            17.13869476,
+                            17.13869476,
+                            3.9423176,
+                            3.9423176
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "StoveBurner",
+                        [
+                            5.271576,
+                            5.271576,
+                            17.1768,
+                            17.1768,
+                            3.932,
+                            3.932
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Pan|+01.31|+00.99|+04.28"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 37,
+                "annotations": "Pick up the frying pan on the bottom left burner."
+            },
+            {
+                "discrete_action": {
+                    "action": "CoolObject",
+                    "args": [
+                        "pan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CoolObject",
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            8.14,
+                            8.14,
+                            22.504,
+                            22.504,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Fridge|+02.04|+00.00|+05.63"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 37,
+                "annotations": "Open the fridge and place the frying pan on the top shelf to the right and close the door letting it chill for a while before retrieving it and closing the door."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "pan",
+                        "stoveburner"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Pan",
+                        [
+                            5.2527232,
+                            5.2527232,
+                            17.13869476,
+                            17.13869476,
+                            3.9423176,
+                            3.9423176
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "StoveBurner",
+                        [
+                            6.239576,
+                            6.239576,
+                            17.1768,
+                            17.1768,
+                            3.932,
+                            3.932
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Pan|+01.31|+00.99|+04.28",
+                    "receptacleObjectId": "StoveBurner|+01.56|+00.98|+04.29"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "PutObject"
+                ],
+                "scene_index": 37,
+                "annotations": "Place the frying pan back on the stove but on the top left burner this time."
+            }
+        ],
+        "annotation": "Place a chilled frying pan on the stove."
+    },
+    {
+        "task": "pick_two_obj_and_place-Knife-None-Drawer-18/trial_T20190907_065232_689984",
+        "repeat_id": 4,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "knife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            -1.331300736,
+                            -1.331300736,
+                            24.868016,
+                            24.868016,
+                            3.159154652,
+                            3.159154652
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            -0.624711872,
+                            -0.624711872,
+                            25.896156,
+                            25.896156,
+                            2.673336984,
+                            2.673336984
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|-00.33|+00.79|+06.22"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PickupObject"
+                ],
+                "scene_index": 137,
+                "annotations": "Pick up the yellow handled knife from the table"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "knife",
+                        "drawer"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            -1.331300736,
+                            -1.331300736,
+                            24.868016,
+                            24.868016,
+                            3.159154652,
+                            3.159154652
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Drawer",
+                        [
+                            5.1224,
+                            5.1224,
+                            18.874292,
+                            18.874292,
+                            3.2341672,
+                            3.2341672
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|-00.33|+00.79|+06.22",
+                    "receptacleObjectId": "Drawer|+01.28|+00.81|+04.72"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 137,
+                "annotations": "Open the top drawer and place the knife inside"
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "knife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            -1.51330018,
+                            -1.51330018,
+                            26.792744,
+                            26.792744,
+                            3.159154652,
+                            3.159154652
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            -0.624711872,
+                            -0.624711872,
+                            25.896156,
+                            25.896156,
+                            2.673336984,
+                            2.673336984
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|-00.38|+00.79|+06.70"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PickupObject"
+                ],
+                "scene_index": 137,
+                "annotations": "Pick up the yellow handled knife from the table"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "knife",
+                        "drawer"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            -1.51330018,
+                            -1.51330018,
+                            26.792744,
+                            26.792744,
+                            3.159154652,
+                            3.159154652
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Drawer",
+                        [
+                            5.1224,
+                            5.1224,
+                            18.874292,
+                            18.874292,
+                            3.2341672,
+                            3.2341672
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|-00.38|+00.79|+06.70",
+                    "receptacleObjectId": "Drawer|+01.28|+00.81|+04.72"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 137,
+                "annotations": "Open the top drawer and place the knife inside"
+            }
+        ],
+        "annotation": "Putting away yellow handled knives in the drawer."
+    },
+    {
+        "task": "pick_cool_then_place_in_recep-PotatoSliced-None-Microwave-18/trial_T20190908_041830_078220",
+        "repeat_id": 2,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "butterknife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "ButterKnife",
+                        [
+                            0.41143036,
+                            0.41143036,
+                            25.22156908,
+                            25.22156908,
+                            3.04052186,
+                            3.04052186
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            -0.624711872,
+                            -0.624711872,
+                            25.896156,
+                            25.896156,
+                            2.673336984,
+                            2.673336984
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "ButterKnife|+00.10|+00.76|+06.31"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 106,
+                "annotations": "Take a knife from the table"
+            },
+            {
+                "discrete_action": {
+                    "action": "SliceObject",
+                    "args": [
+                        "potato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "SliceObject",
+                    "coordinateObjectId": [
+                        "Potato",
+                        [
+                            3.6935556,
+                            3.6935556,
+                            1.214432956,
+                            1.214432956,
+                            4.110352,
+                            4.110352
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Potato|+00.92|+01.03|+00.30"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "SliceObject"
+                ],
+                "scene_index": 106,
+                "annotations": "Slice potato on the counter"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "butterknife",
+                        "fridge"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "ButterKnife",
+                        [
+                            0.41143036,
+                            0.41143036,
+                            25.22156908,
+                            25.22156908,
+                            3.04052186,
+                            3.04052186
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            8.14,
+                            8.14,
+                            22.504,
+                            22.504,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "ButterKnife|+00.10|+00.76|+06.31",
+                    "receptacleObjectId": "Fridge|+02.04|+00.00|+05.63"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 106,
+                "annotations": "Put the knife on the fridge"
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "potato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Potato",
+                        [
+                            3.6935556,
+                            3.6935556,
+                            1.214432956,
+                            1.214432956,
+                            4.110352,
+                            4.110352
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            5.564,
+                            5.564,
+                            3.588,
+                            3.588,
+                            4.1128,
+                            4.1128
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Potato|+00.92|+01.03|+00.30|PotatoSliced_1"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 106,
+                "annotations": "Grab a slice of potato"
+            },
+            {
+                "discrete_action": {
+                    "action": "CoolObject",
+                    "args": [
+                        "potato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CoolObject",
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            8.14,
+                            8.14,
+                            22.504,
+                            22.504,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Fridge|+02.04|+00.00|+05.63"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 106,
+                "annotations": "Put the potato slice in the fridge and take it out again"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "potato",
+                        "microwave"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Potato",
+                        [
+                            3.6935556,
+                            3.6935556,
+                            1.214432956,
+                            1.214432956,
+                            4.110352,
+                            4.110352
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Microwave",
+                        [
+                            0.434951068,
+                            0.434951068,
+                            1.052,
+                            1.052,
+                            3.926775456,
+                            3.926775456
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Potato|+00.92|+01.03|+00.30|PotatoSliced_1",
+                    "receptacleObjectId": "Microwave|+00.11|+00.98|+00.26"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 106,
+                "annotations": "Put the potato slice in the microwave"
+            }
+        ],
+        "annotation": "Slice the potato, put slice in fridge, put it in the microwave."
+    },
+    {
+        "task": "pick_cool_then_place_in_recep-Tomato-None-Microwave-18/trial_T20190909_012524_159092",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            2.17939186,
+                            2.17939186,
+                            0.481628656,
+                            0.481628656,
+                            4.16866256,
+                            4.16866256
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            5.564,
+                            5.564,
+                            3.588,
+                            3.588,
+                            4.1128,
+                            4.1128
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+00.54|+01.04|+00.12"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "PickupObject"
+                ],
+                "scene_index": 109,
+                "annotations": "Pick up the tomato from the counter next to the microwave."
+            },
+            {
+                "discrete_action": {
+                    "action": "CoolObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CoolObject",
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            8.14,
+                            8.14,
+                            22.504,
+                            22.504,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Fridge|+02.04|+00.00|+05.63"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 109,
+                "annotations": "Place the tomato on the top shelf in the fridge, close the door, and then open the door to remove it after a few seconds."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "tomato",
+                        "microwave"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            2.17939186,
+                            2.17939186,
+                            0.481628656,
+                            0.481628656,
+                            4.16866256,
+                            4.16866256
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Microwave",
+                        [
+                            0.434951068,
+                            0.434951068,
+                            1.052,
+                            1.052,
+                            3.926775456,
+                            3.926775456
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+00.54|+01.04|+00.12",
+                    "receptacleObjectId": "Microwave|+00.11|+00.98|+00.26"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 109,
+                "annotations": "Place the tomato in the microwave."
+            }
+        ],
+        "annotation": "Put a cold tomato in the microwave."
+    },
+    {
+        "task": "pick_heat_then_place_in_recep-Potato-None-SinkBasin-18/trial_T20190909_050524_644477",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "potato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Potato",
+                        [
+                            5.10696076,
+                            5.10696076,
+                            8.13774968,
+                            8.13774968,
+                            3.7020812,
+                            3.7020812
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            5.5492,
+                            5.5492,
+                            9.356,
+                            9.356,
+                            3.5209168,
+                            3.5209168
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Potato|+01.28|+00.93|+02.03"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 170,
+                "annotations": "Pick up the potato from the right sink basin."
+            },
+            {
+                "discrete_action": {
+                    "action": "HeatObject",
+                    "args": [
+                        "potato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "HeatObject",
+                    "coordinateReceptacleObjectId": [
+                        "Microwave",
+                        [
+                            0.434951068,
+                            0.434951068,
+                            1.052,
+                            1.052,
+                            3.926775456,
+                            3.926775456
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Microwave|+00.11|+00.98|+00.26"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "ToggleObjectOn",
+                    "ToggleObjectOff",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 170,
+                "annotations": "Open the microwave, put the potato inside and heat it up, then take the potato out."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "potato",
+                        "sinkbasin"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Potato",
+                        [
+                            5.10696076,
+                            5.10696076,
+                            8.13774968,
+                            8.13774968,
+                            3.7020812,
+                            3.7020812
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            5.5492,
+                            5.5492,
+                            9.356,
+                            9.356,
+                            3.5209168,
+                            3.5209168
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Potato|+01.28|+00.93|+02.03",
+                    "receptacleObjectId": "Sink|+01.39|+01.01|+02.33|SinkBasin"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PutObject"
+                ],
+                "scene_index": 170,
+                "annotations": "Put the potato in the right sink basin."
+            }
+        ],
+        "annotation": "Put a warm potato in the sink."
+    },
+    {
+        "task": "pick_heat_then_place_in_recep-TomatoSliced-None-CounterTop-2/trial_T20190910_180358_375701",
+        "repeat_id": 1,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "knife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            -0.426448076,
+                            -0.426448076,
+                            2.024000168,
+                            2.024000168,
+                            3.7903708,
+                            3.7903708
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -0.06,
+                            -0.06,
+                            2.024,
+                            2.024,
+                            3.8444,
+                            3.8444
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|-00.11|+00.95|+00.51"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 222,
+                "annotations": "Pick up the closest chef's knife to you."
+            },
+            {
+                "discrete_action": {
+                    "action": "SliceObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "SliceObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            0.680514276,
+                            0.680514276,
+                            -5.52088068,
+                            -5.52088068,
+                            3.262953044,
+                            3.262953044
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+00.17|+00.82|-01.38"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "SliceObject"
+                ],
+                "scene_index": 222,
+                "annotations": "Slice the tomato in the sink."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "knife",
+                        "countertop"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            -0.426448076,
+                            -0.426448076,
+                            2.024000168,
+                            2.024000168,
+                            3.7903708,
+                            3.7903708
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -0.06,
+                            -0.06,
+                            2.024,
+                            2.024,
+                            3.8444,
+                            3.8444
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|-00.11|+00.95|+00.51",
+                    "receptacleObjectId": "CounterTop|-00.02|+00.96|+00.51"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "PutObject"
+                ],
+                "scene_index": 222,
+                "annotations": "Set the chef's knife on top of the other chef's knife."
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            0.680514276,
+                            0.680514276,
+                            -5.52088068,
+                            -5.52088068,
+                            3.262953044,
+                            3.262953044
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -0.06,
+                            -0.06,
+                            -5.742,
+                            -5.742,
+                            2.948,
+                            2.948
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+00.17|+00.82|-01.38|TomatoSliced_1"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 222,
+                "annotations": "Pick up a slice of tomato."
+            },
+            {
+                "discrete_action": {
+                    "action": "HeatObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "HeatObject",
+                    "coordinateReceptacleObjectId": [
+                        "Microwave",
+                        [
+                            7.732,
+                            7.732,
+                            -3.068,
+                            -3.068,
+                            3.600000144,
+                            3.600000144
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Microwave|+01.93|+00.90|-00.77"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "ToggleObjectOn",
+                    "ToggleObjectOff",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 222,
+                "annotations": "Heat the tomato slice in the microwave."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "tomato",
+                        "countertop"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            0.680514276,
+                            0.680514276,
+                            -5.52088068,
+                            -5.52088068,
+                            3.262953044,
+                            3.262953044
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -0.06,
+                            -0.06,
+                            2.024,
+                            2.024,
+                            3.8444,
+                            3.8444
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+00.17|+00.82|-01.38|TomatoSliced_1",
+                    "receptacleObjectId": "CounterTop|-00.02|+00.96|+00.51"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "PutObject"
+                ],
+                "scene_index": 222,
+                "annotations": "Set the tomato clice down to the right of the chef's knife."
+            }
+        ],
+        "annotation": "Set a heated tomato slice on the island."
+    },
+    {
+        "task": "pick_cool_then_place_in_recep-LettuceSliced-None-SinkBasin-2/trial_T20190908_015957_501112",
+        "repeat_id": 1,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "knife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            1.28592646,
+                            1.28592646,
+                            2.9524016,
+                            2.9524016,
+                            3.7903708,
+                            3.7903708
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -0.06,
+                            -0.06,
+                            2.024,
+                            2.024,
+                            3.8444,
+                            3.8444
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|+00.32|+00.95|+00.74"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 221,
+                "annotations": "Pick up the yellow knife in front of you."
+            },
+            {
+                "discrete_action": {
+                    "action": "SliceObject",
+                    "args": [
+                        "lettuce"
+                    ]
+                },
+                "planner_action": {
+                    "action": "SliceObject",
+                    "coordinateObjectId": [
+                        "Lettuce",
+                        [
+                            -0.426448076,
+                            -0.426448076,
+                            1.095598696,
+                            1.095598696,
+                            4.00921536,
+                            4.00921536
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Lettuce|-00.11|+01.00|+00.27"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "SliceObject"
+                ],
+                "scene_index": 221,
+                "annotations": "Slice the lettuce that is in the middle of the counter."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "knife",
+                        "fridge"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            1.28592646,
+                            1.28592646,
+                            2.9524016,
+                            2.9524016,
+                            3.7903708,
+                            3.7903708
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            -7.056,
+                            -7.056,
+                            0.056,
+                            0.056,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|+00.32|+00.95|+00.74",
+                    "receptacleObjectId": "Fridge|-01.76|+00.00|+00.01"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 221,
+                "annotations": "Put the knife in the fridge."
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "lettuce"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Lettuce",
+                        [
+                            -0.426448076,
+                            -0.426448076,
+                            1.095598696,
+                            1.095598696,
+                            4.00921536,
+                            4.00921536
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -0.06,
+                            -0.06,
+                            2.024,
+                            2.024,
+                            3.8444,
+                            3.8444
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Lettuce|-00.11|+01.00|+00.27|LettuceSliced_2"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PickupObject"
+                ],
+                "scene_index": 221,
+                "annotations": "Pick up a slice of lettuce."
+            },
+            {
+                "discrete_action": {
+                    "action": "CoolObject",
+                    "args": [
+                        "lettuce"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CoolObject",
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            -7.056,
+                            -7.056,
+                            0.056,
+                            0.056,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Fridge|-01.76|+00.00|+00.01"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 221,
+                "annotations": "Put the slice of lettuce in the fridge, close the door, wait, take the slice back out."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "lettuce",
+                        "sinkbasin"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Lettuce",
+                        [
+                            -0.426448076,
+                            -0.426448076,
+                            1.095598696,
+                            1.095598696,
+                            4.00921536,
+                            4.00921536
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -0.06,
+                            -0.06,
+                            -5.742,
+                            -5.742,
+                            2.948,
+                            2.948
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Lettuce|-00.11|+01.00|+00.27|LettuceSliced_2",
+                    "receptacleObjectId": "Sink|+00.00|+00.89|-01.44|SinkBasin"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 221,
+                "annotations": "Put the slice of lettuce in the sink."
+            }
+        ],
+        "annotation": "Cut a slice of lettuce, chill it and put it in the sink."
+    },
+    {
+        "task": "pick_clean_then_place_in_recep-ButterKnife-None-Drawer-2/trial_T20190908_121728_511866",
+        "repeat_id": 2,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "butterknife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "ButterKnife",
+                        [
+                            -4.200396,
+                            -4.200396,
+                            -6.052,
+                            -6.052,
+                            3.646168232,
+                            3.646168232
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            0.008,
+                            0.008,
+                            -6.052,
+                            -6.052,
+                            3.788,
+                            3.788
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "ButterKnife|-01.05|+00.91|-01.51"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "PickupObject"
+                ],
+                "scene_index": 246,
+                "annotations": "pick up a knife from the counter"
+            },
+            {
+                "discrete_action": {
+                    "action": "CleanObject",
+                    "args": [
+                        "butterknife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CleanObject",
+                    "cleanObjectId": "ButterKnife|-01.05|+00.91|-01.51",
+                    "coordinateObjectId": [
+                        "ButterKnife",
+                        [
+                            -4.200396,
+                            -4.200396,
+                            -6.052,
+                            -6.052,
+                            3.646168232,
+                            3.646168232
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -0.06,
+                            -0.06,
+                            -5.742,
+                            -5.742,
+                            2.948,
+                            2.948
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Sink|+00.00|+00.89|-01.44|SinkBasin"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PutObject",
+                    "ToggleObjectOn",
+                    "ToggleObjectOff",
+                    "PickupObject"
+                ],
+                "scene_index": 246,
+                "annotations": "clean the knife in the sink"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "butterknife",
+                        "drawer"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "ButterKnife",
+                        [
+                            -4.200396,
+                            -4.200396,
+                            -6.052,
+                            -6.052,
+                            3.646168232,
+                            3.646168232
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Drawer",
+                        [
+                            6.0,
+                            6.0,
+                            -0.08,
+                            -0.08,
+                            1.7168,
+                            1.7168
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "ButterKnife|-01.05|+00.91|-01.51",
+                    "receptacleObjectId": "Drawer|+01.50|+00.43|-00.02"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 246,
+                "annotations": "put the knife in the drawer to the left of the dishwasher"
+            }
+        ],
+        "annotation": "Put a cleaned knife in a drawer."
+    },
+    {
+        "task": "pick_heat_then_place_in_recep-Egg-None-CounterTop-2/trial_T20190908_122951_021026",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "egg"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Egg",
+                        [
+                            0.4297392,
+                            0.4297392,
+                            3.8808032,
+                            3.8808032,
+                            3.929890156,
+                            3.929890156
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -0.06,
+                            -0.06,
+                            2.024,
+                            2.024,
+                            3.8444,
+                            3.8444
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Egg|+00.11|+00.98|+00.97"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "PickupObject"
+                ],
+                "scene_index": 20,
+                "annotations": "Pick up the egg that is on the kitchen island, in front of the tomato."
+            },
+            {
+                "discrete_action": {
+                    "action": "HeatObject",
+                    "args": [
+                        "egg"
+                    ]
+                },
+                "planner_action": {
+                    "action": "HeatObject",
+                    "coordinateReceptacleObjectId": [
+                        "Microwave",
+                        [
+                            7.732,
+                            7.732,
+                            -3.068,
+                            -3.068,
+                            3.600000144,
+                            3.600000144
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Microwave|+01.93|+00.90|-00.77"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "ToggleObjectOn",
+                    "ToggleObjectOff",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 20,
+                "annotations": "Heat up the egg in the microwave before taking it back out. "
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "egg",
+                        "countertop"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Egg",
+                        [
+                            0.4297392,
+                            0.4297392,
+                            3.8808032,
+                            3.8808032,
+                            3.929890156,
+                            3.929890156
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -0.06,
+                            -0.06,
+                            2.024,
+                            2.024,
+                            3.8444,
+                            3.8444
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Egg|+00.11|+00.98|+00.97",
+                    "receptacleObjectId": "CounterTop|-00.02|+00.96|+00.51"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "PutObject"
+                ],
+                "scene_index": 20,
+                "annotations": "Place the egg on the kitchen island, above the oven."
+            }
+        ],
+        "annotation": "Place a heated egg on the kitchen island."
+    },
+    {
+        "task": "pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195943_081289",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "apple"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Apple",
+                        [
+                            1.28592646,
+                            1.28592646,
+                            4.80920456,
+                            4.80920456,
+                            3.9155308,
+                            3.9155308
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -0.06,
+                            -0.06,
+                            2.024,
+                            2.024,
+                            3.8444,
+                            3.8444
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Apple|+00.32|+00.98|+01.20"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 34,
+                "annotations": "Pick up apple from the table."
+            },
+            {
+                "discrete_action": {
+                    "action": "CoolObject",
+                    "args": [
+                        "apple"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CoolObject",
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            -7.056,
+                            -7.056,
+                            0.056,
+                            0.056,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Fridge|-01.76|+00.00|+00.01"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 34,
+                "annotations": "Open the fridge, place the apple on the top shelf inside the fridge, close the fridge for the apple to cool down, open the fridge and take out the apple."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "apple",
+                        "garbagecan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Apple",
+                        [
+                            1.28592646,
+                            1.28592646,
+                            4.80920456,
+                            4.80920456,
+                            3.9155308,
+                            3.9155308
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "GarbageCan",
+                        [
+                            -7.184,
+                            -7.184,
+                            5.32,
+                            5.32,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Apple|+00.32|+00.98|+01.20",
+                    "receptacleObjectId": "GarbageCan|-01.80|+00.00|+01.33"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 34,
+                "annotations": "Place the apple in the bin."
+            }
+        ],
+        "annotation": "Place a cool apple in the white bin."
+    },
+    {
+        "task": "pick_clean_then_place_in_recep-Lettuce-None-CounterTop-16/trial_T20190909_051630_092360",
+        "repeat_id": 1,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "lettuce"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Lettuce",
+                        [
+                            10.53342248,
+                            10.53342248,
+                            16.189579,
+                            16.189579,
+                            3.2905092,
+                            3.2905092
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            9.788,
+                            9.788,
+                            15.904,
+                            15.904,
+                            2.673336984,
+                            2.673336984
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Lettuce|+02.63|+00.82|+04.05"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 103,
+                "annotations": "pick up the lettuce on the table"
+            },
+            {
+                "discrete_action": {
+                    "action": "CleanObject",
+                    "args": [
+                        "lettuce"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CleanObject",
+                    "cleanObjectId": "Lettuce|+02.63|+00.82|+04.05",
+                    "coordinateObjectId": [
+                        "Lettuce",
+                        [
+                            10.53342248,
+                            10.53342248,
+                            16.189579,
+                            16.189579,
+                            3.2905092,
+                            3.2905092
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -2.8576,
+                            -2.8576,
+                            5.3932,
+                            5.3932,
+                            3.224,
+                            3.224
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Sink|-00.72|+01.02|+01.33|SinkBasin"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PutObject",
+                    "ToggleObjectOn",
+                    "ToggleObjectOff",
+                    "PickupObject"
+                ],
+                "scene_index": 103,
+                "annotations": "put the lettuce into the sink and fill it with water then drain the sink and remove the lettuce"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "lettuce",
+                        "countertop"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Lettuce",
+                        [
+                            10.53342248,
+                            10.53342248,
+                            16.189579,
+                            16.189579,
+                            3.2905092,
+                            3.2905092
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -3.2522,
+                            -3.2522,
+                            8.756,
+                            8.756,
+                            4.252,
+                            4.252
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Lettuce|+02.63|+00.82|+04.05",
+                    "receptacleObjectId": "CounterTop|-00.81|+01.06|+02.19"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookUp_15",
+                    "PutObject"
+                ],
+                "scene_index": 103,
+                "annotations": "put the lettuce down on the counter"
+            }
+        ],
+        "annotation": "Rinse off lettuce and put it down on the counter top."
+    },
+    {
+        "task": "pick_clean_then_place_in_recep-Ladle-None-DiningTable-16/trial_T20190909_183724_205399",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "ladle"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            10.39774992,
+                            10.39774992,
+                            17.28,
+                            17.28,
+                            3.214551448,
+                            3.214551448
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            9.788,
+                            9.788,
+                            15.904,
+                            15.904,
+                            2.673336984,
+                            2.673336984
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Ladle|+02.60|+00.80|+04.32"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "PickupObject"
+                ],
+                "scene_index": 139,
+                "annotations": "Pick up the large metal spoon white a black handle off of the round white table."
+            },
+            {
+                "discrete_action": {
+                    "action": "CleanObject",
+                    "args": [
+                        "ladle"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CleanObject",
+                    "cleanObjectId": "Ladle|+02.60|+00.80|+04.32",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            10.39774992,
+                            10.39774992,
+                            17.28,
+                            17.28,
+                            3.214551448,
+                            3.214551448
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "SinkBasin",
+                        [
+                            -2.8576,
+                            -2.8576,
+                            5.3932,
+                            5.3932,
+                            3.224,
+                            3.224
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Sink|-00.72|+01.02|+01.33|SinkBasin"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "PutObject",
+                    "ToggleObjectOn",
+                    "ToggleObjectOff",
+                    "PickupObject"
+                ],
+                "scene_index": 139,
+                "annotations": "Wash the large metal spoon in the kitchen sink, then pick it back up."
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "ladle",
+                        "diningtable"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Ladle",
+                        [
+                            10.39774992,
+                            10.39774992,
+                            17.28,
+                            17.28,
+                            3.214551448,
+                            3.214551448
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            9.788,
+                            9.788,
+                            15.904,
+                            15.904,
+                            2.673336984,
+                            2.673336984
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Ladle|+02.60|+00.80|+04.32",
+                    "receptacleObjectId": "DiningTable|+02.45|+00.67|+03.98"
+                },
+                "api_action": [
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "PutObject"
+                ],
+                "scene_index": 139,
+                "annotations": "Place the clean large metal spoon on the table to the left of the loaves of bread."
+            }
+        ],
+        "annotation": "Put a clean large metal spoon on the round white table."
+    },
+    {
+        "task": "pick_cool_then_place_in_recep-Mug-None-CoffeeMachine-16/trial_T20190908_184242_348366",
+        "repeat_id": 1,
+        "subgoal_ids": [
+            0,
+            1,
+            2
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "mug"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Mug",
+                        [
+                            -3.2152,
+                            -3.2152,
+                            2.58400178,
+                            2.58400178,
+                            4.28263712,
+                            4.28263712
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            -3.2522,
+                            -3.2522,
+                            8.756,
+                            8.756,
+                            4.252,
+                            4.252
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Mug|-00.80|+01.07|+00.65"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "PickupObject"
+                ],
+                "scene_index": 149,
+                "annotations": "grab the cup in the coffee machine"
+            },
+            {
+                "discrete_action": {
+                    "action": "CoolObject",
+                    "args": [
+                        "mug"
+                    ]
+                },
+                "planner_action": {
+                    "action": "CoolObject",
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            -3.636,
+                            -3.636,
+                            -1.624,
+                            -1.624,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Fridge|-00.91|+00.00|-00.41"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 149,
+                "annotations": "open the refrigerator, put the cup in, wait for a while, take the cup out"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "mug",
+                        "coffeemachine"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Mug",
+                        [
+                            -3.2152,
+                            -3.2152,
+                            2.58400178,
+                            2.58400178,
+                            4.28263712,
+                            4.28263712
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CoffeeMachine",
+                        [
+                            -3.772,
+                            -3.772,
+                            2.584,
+                            2.584,
+                            4.07263708,
+                            4.07263708
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Mug|-00.80|+01.07|+00.65",
+                    "receptacleObjectId": "CoffeeMachine|-00.94|+01.02|+00.65"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookUp_15",
+                    "PutObject"
+                ],
+                "scene_index": 149,
+                "annotations": "put the cup in the coffee machine"
+            }
+        ],
+        "annotation": "Cool the cup in the refrigerator, put it in the coffee machine."
+    },
+    {
+        "task": "pick_heat_then_place_in_recep-TomatoSliced-None-GarbageCan-16/trial_T20190909_004537_873323",
+        "repeat_id": 0,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "knife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            9.19957448,
+                            9.19957448,
+                            4.821796,
+                            4.821796,
+                            4.20889236,
+                            4.20889236
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            11.252,
+                            11.252,
+                            2.7,
+                            2.7,
+                            3.972,
+                            3.972
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|+02.30|+01.05|+01.21"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookUp_15",
+                    "PickupObject"
+                ],
+                "scene_index": 154,
+                "annotations": "pick up the knife from the counter"
+            },
+            {
+                "discrete_action": {
+                    "action": "SliceObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "SliceObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            10.487204,
+                            10.487204,
+                            -4.606908,
+                            -4.606908,
+                            4.32226132,
+                            4.32226132
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+02.62|+01.08|-01.15"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "SliceObject"
+                ],
+                "scene_index": 154,
+                "annotations": "slice up the tomato on the counter"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "knife",
+                        "garbagecan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            9.19957448,
+                            9.19957448,
+                            4.821796,
+                            4.821796,
+                            4.20889236,
+                            4.20889236
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "GarbageCan",
+                        [
+                            -3.805050612,
+                            -3.805050612,
+                            11.30460928,
+                            11.30460928,
+                            -0.0039073228,
+                            -0.0039073228
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|+02.30|+01.05|+01.21",
+                    "receptacleObjectId": "GarbageCan|-00.95|00.00|+02.83"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 154,
+                "annotations": "put knife in the trash can"
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            10.487204,
+                            10.487204,
+                            -4.606908,
+                            -4.606908,
+                            4.32226132,
+                            4.32226132
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            11.252,
+                            11.252,
+                            2.7,
+                            2.7,
+                            3.972,
+                            3.972
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+02.62|+01.08|-01.15|TomatoSliced_1"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 154,
+                "annotations": "pick up a tomato slice from the counter"
+            },
+            {
+                "discrete_action": {
+                    "action": "HeatObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "HeatObject",
+                    "coordinateReceptacleObjectId": [
+                        "Microwave",
+                        [
+                            7.758,
+                            7.758,
+                            -7.3052,
+                            -7.3052,
+                            6.982419,
+                            6.982419
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Microwave|+01.94|+01.75|-01.83"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateRight_90",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookUp_15",
+                    "LookUp_15",
+                    "LookUp_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject",
+                    "ToggleObjectOn",
+                    "ToggleObjectOff",
+                    "OpenObject",
+                    "PickupObject",
+                    "CloseObject"
+                ],
+                "scene_index": 154,
+                "annotations": "open the microwave and place tomato in shut the door and"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "tomato",
+                        "garbagecan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            10.487204,
+                            10.487204,
+                            -4.606908,
+                            -4.606908,
+                            4.32226132,
+                            4.32226132
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "GarbageCan",
+                        [
+                            -3.805050612,
+                            -3.805050612,
+                            11.30460928,
+                            11.30460928,
+                            -0.0039073228,
+                            -0.0039073228
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+02.62|+01.08|-01.15|TomatoSliced_1",
+                    "receptacleObjectId": "GarbageCan|-00.95|00.00|+02.83"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "LookDown_15",
+                    "LookDown_15",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookDown_15",
+                    "PutObject"
+                ],
+                "scene_index": 154,
+                "annotations": "throw the tomato in the trash"
+            }
+        ],
+        "annotation": "To cook a sliced tomato to throw it in the trash."
+    },
+    {
+        "task": "pick_and_place_with_movable_recep-TomatoSliced-Pan-Fridge-16/trial_T20190908_134410_550530",
+        "repeat_id": 1,
+        "subgoal_ids": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+        ],
+        "primitive_skills": [
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "knife"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            10.50400068,
+                            10.50400068,
+                            15.28625108,
+                            15.28625108,
+                            3.159279824,
+                            3.159279824
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            9.788,
+                            9.788,
+                            15.904,
+                            15.904,
+                            2.673336984,
+                            2.673336984
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|+02.63|+00.79|+03.82"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "PickupObject"
+                ],
+                "scene_index": 228,
+                "annotations": "Pick up the knife"
+            },
+            {
+                "discrete_action": {
+                    "action": "SliceObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "SliceObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            10.281588,
+                            10.281588,
+                            14.45905112,
+                            14.45905112,
+                            3.2726492,
+                            3.2726492
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+02.57|+00.82|+03.61"
+                },
+                "api_action": [
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "LookDown_15",
+                    "SliceObject"
+                ],
+                "scene_index": 228,
+                "annotations": "Cut the tomato"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "knife",
+                        "pan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Knife",
+                        [
+                            10.50400068,
+                            10.50400068,
+                            15.28625108,
+                            15.28625108,
+                            3.159279824,
+                            3.159279824
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Pan",
+                        [
+                            8.64303684,
+                            8.64303684,
+                            5.4186096,
+                            5.4186096,
+                            4.10593128,
+                            4.10593128
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Knife|+02.63|+00.79|+03.82",
+                    "receptacleObjectId": "Pan|+02.16|+01.03|+01.35"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookUp_15",
+                    "PutObject"
+                ],
+                "scene_index": 228,
+                "annotations": "Put the knife in the pan"
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "tomato"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            10.281588,
+                            10.281588,
+                            14.45905112,
+                            14.45905112,
+                            3.2726492,
+                            3.2726492
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "DiningTable",
+                        [
+                            9.788,
+                            9.788,
+                            15.904,
+                            15.904,
+                            2.673336984,
+                            2.673336984
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+02.57|+00.82|+03.61|TomatoSliced_6"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "LookDown_15",
+                    "PickupObject"
+                ],
+                "scene_index": 228,
+                "annotations": "Take a tomato slice"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "tomato",
+                        "pan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Tomato",
+                        [
+                            10.281588,
+                            10.281588,
+                            14.45905112,
+                            14.45905112,
+                            3.2726492,
+                            3.2726492
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Pan",
+                        [
+                            8.64303684,
+                            8.64303684,
+                            5.4186096,
+                            5.4186096,
+                            4.10593128,
+                            4.10593128
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Tomato|+02.57|+00.82|+03.61|TomatoSliced_6",
+                    "receptacleObjectId": "Pan|+02.16|+01.03|+01.35"
+                },
+                "api_action": [
+                    "LookUp_15",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateLeft_90",
+                    "LookUp_15",
+                    "PutObject"
+                ],
+                "scene_index": 228,
+                "annotations": "Put the tomato in the pan"
+            },
+            {
+                "discrete_action": {
+                    "action": "PickupObject",
+                    "args": [
+                        "pan"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PickupObject",
+                    "coordinateObjectId": [
+                        "Pan",
+                        [
+                            8.64303684,
+                            8.64303684,
+                            5.4186096,
+                            5.4186096,
+                            4.10593128,
+                            4.10593128
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "CounterTop",
+                        [
+                            11.252,
+                            11.252,
+                            2.7,
+                            2.7,
+                            3.972,
+                            3.972
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Pan|+02.16|+01.03|+01.35"
+                },
+                "api_action": [
+                    "PickupObject"
+                ],
+                "scene_index": 228,
+                "annotations": "Pick up the pan"
+            },
+            {
+                "discrete_action": {
+                    "action": "PutObject",
+                    "args": [
+                        "pan",
+                        "fridge"
+                    ]
+                },
+                "planner_action": {
+                    "action": "PutObject",
+                    "coordinateObjectId": [
+                        "Pan",
+                        [
+                            8.64303684,
+                            8.64303684,
+                            5.4186096,
+                            5.4186096,
+                            4.10593128,
+                            4.10593128
+                        ]
+                    ],
+                    "coordinateReceptacleObjectId": [
+                        "Fridge",
+                        [
+                            -3.636,
+                            -3.636,
+                            -1.624,
+                            -1.624,
+                            0.0,
+                            0.0
+                        ]
+                    ],
+                    "forceVisible": true,
+                    "objectId": "Pan|+02.16|+01.03|+01.35",
+                    "receptacleObjectId": "Fridge|-00.91|+00.00|-00.41"
+                },
+                "api_action": [
+                    "LookDown_15",
+                    "RotateLeft_90",
+                    "RotateLeft_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "RotateRight_90",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "MoveAhead_25",
+                    "LookDown_15",
+                    "OpenObject",
+                    "PutObject",
+                    "CloseObject"
+                ],
+                "scene_index": 228,
+                "annotations": "Put the pan in the fridge"
+            }
+        ],
+        "annotation": "Put a pan with a knife and a tomato slice in it in the fridge."
+    }
+]
