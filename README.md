@@ -1,1 +1,10 @@
 # CommonSense-Robots
+
+### This repository organizes researches related to AI Technology Development for Commonsense Extraction, Reasoning, and Inference from Heterogeneous Data, especially CommonSense-Robots task. This repository summarizes following researches.
+
+## Research list
+* Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance (CoRL 2023 Oral) - Jesse Zhang, Jiahui Zhang, Karl Pertsch, Ziyi Liu, Xiang Ren, Minsuk Chang, Shao-Hua Sun, and Joseph J. Lim.
+  * Explanation
+
+## Acknowledgements
+These works were supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government(MSIT). Also, these works were supported by supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government(MSIT).
